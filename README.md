@@ -79,7 +79,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 | [TAC 2025] | **CoAffinity** | A Multimodal Dataset for Cognitive Load and Affect Assessment in Remote Collaboration | [[Paper](https://ieeexplore.ieee.org/abstract/document/10970421)] |
 | [TAC 2025] | **SEED-VII** | A Multimodal Dataset of Six Basic Emotions With Continuous Labels for Emotion Recognition | [[Paper](https://ieeexplore.ieee.org/document/10731546/)] [[Code](https://github.com/gx123412/SEED-VII/blob/main/README.md)] |
 | [TAC 2025] | **FEAD** | Introduction to the fNIRS-EEG Affective Database - Video Stimuli | [[Paper](https://ieeexplore.ieee.org/document/10542388)] [[Code](https://github.com/farniadb/dataset/tree/main)] |
-| [2025] | **MER2025** | Multimodal Emotion Recognition Challenge 2025 | [[Dataset](https://huggingface.co/datasets/MERChallenge/MER2025)] |
+| [MER 2025] | **OV-MERD、MER-Caption+** | Multimodal Emotion Recognition Challenge 2025 | [[Dataset](https://huggingface.co/datasets/MERChallenge/MER2025)] |
 | [Arxiv 2025.06] | **MMME** | Spontaneous Multi-Modal Micro-Expression (Visual-Physiological) | [[Paper](https://arxiv.org/pdf/2506.09834v2)] [[Code](https://github.com/Mac0504/MMME)] |
 | [Arxiv 2025.03] | **EVA-MED** | Enhanced Valence-Arousal Multimodal Emotion Dataset | [[Paper](https://arxiv.org/pdf/2503.16584v1)] |
 | [ACL 2025] | **ACE** | Akan Cinematic Emotions Dataset for Low-resource Languages | [[Paper](https://arxiv.org/abs/2502.10973)] [[Code](https://github.com/sasudavid/AkaCE)] |
@@ -110,6 +110,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 | [Arxiv 2025.10] | **SEER** | The Span-based Emotion Evidence Retrieval Benchmark | [[Paper](https://arxiv.org/pdf/2510.03490v1)] [[Code](https://github.com/chailab-umich/SEER)] |
 | [Arxiv 2025.08] | **MME-Emotion** | A Holistic Evaluation Benchmark for Emotional Intelligence in MLLMs | [[Paper](https://www.arxiv.org/pdf/2508.09210)] [[Code](https://mme-emotion.github.io/)] |
 | [Arxiv 2025.08] | **MTMEUR** | A Multi-Turn Multimodal Emotion Understanding and Reasoning Benchmark | [[Paper](https://arxiv.org/pdf/2508.16859v1)] [[Code](https://github.com/MindIntLab-HFUT/MTMEUR)] |
+| [MER 2025] | **MER-UniBench** | A Comprehensive Evaluation for MLLM-based Emotion Understanding | [[[Code](https://github.com/zeroQiaoba/AffectGPT)] |
 | [TAC 2025] | **ECDaily** | A Large-scale Benchmark for Emotion Cause Extraction in Conversations | [[Paper](https://ieeexplore.ieee.org/document/10830477)] [[Code](https://github.com/xiangju2017/ECDaily-realtime)] |
 | [ACL 2025] | **ToMEmoReason** | Emotion Reasoning as a Theory of Mind Benchmark for LLMs | [[Paper](https://arxiv.org/pdf/2506.00334)] [[Code](https://github.com/GerardYeo/ToMEmoReason)] |
 | [Arxiv 2025.05] | **EmotionHallucer** | Evaluating Emotion Hallucinations in MLLMs | [[Paper](https://arxiv.org/pdf/2505.11405v1)] [[Code](https://github.com/xxtars/EmotionHallucer)] |

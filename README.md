@@ -110,7 +110,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 | [Arxiv 2025.10] | **SEER** | The Span-based Emotion Evidence Retrieval Benchmark | [[Paper](https://arxiv.org/pdf/2510.03490v1)] [[Code](https://github.com/chailab-umich/SEER)] |
 | [Arxiv 2025.08] | **MME-Emotion** | A Holistic Evaluation Benchmark for Emotional Intelligence in MLLMs | [[Paper](https://www.arxiv.org/pdf/2508.09210)] [[Code](https://mme-emotion.github.io/)] |
 | [Arxiv 2025.08] | **MTMEUR** | A Multi-Turn Multimodal Emotion Understanding and Reasoning Benchmark | [[Paper](https://arxiv.org/pdf/2508.16859v1)] [[Code](https://github.com/MindIntLab-HFUT/MTMEUR)] |
-| [MER 2025] | **MER-UniBench** | A Comprehensive Evaluation for MLLM-based Emotion Understanding | [[[Code](https://github.com/zeroQiaoba/AffectGPT)] |
+| [MER 2025] | **MER-UniBench** | A Comprehensive Evaluation for MLLM-based Emotion Understanding | [[Code](https://github.com/zeroQiaoba/AffectGPT)] |
 | [TAC 2025] | **ECDaily** | A Large-scale Benchmark for Emotion Cause Extraction in Conversations | [[Paper](https://ieeexplore.ieee.org/document/10830477)] [[Code](https://github.com/xiangju2017/ECDaily-realtime)] |
 | [ACL 2025] | **ToMEmoReason** | Emotion Reasoning as a Theory of Mind Benchmark for LLMs | [[Paper](https://arxiv.org/pdf/2506.00334)] [[Code](https://github.com/GerardYeo/ToMEmoReason)] |
 | [Arxiv 2025.05] | **EmotionHallucer** | Evaluating Emotion Hallucinations in MLLMs | [[Paper](https://arxiv.org/pdf/2505.11405v1)] [[Code](https://github.com/xxtars/EmotionHallucer)] |

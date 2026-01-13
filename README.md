@@ -83,13 +83,17 @@ This repository is a curated collection of research papers, datasets, and toolki
 | [Arxiv 2025.06] | **MMME** | Spontaneous Multi-Modal Micro-Expression (Visual-Physiological) | [[Paper](https://arxiv.org/pdf/2506.09834v2)] [[Code](https://github.com/Mac0504/MMME)] |
 | [Arxiv 2025.03] | **EVA-MED** | Enhanced Valence-Arousal Multimodal Emotion Dataset | [[Paper](https://arxiv.org/pdf/2503.16584v1)] |
 | [ACL 2025] | **ACE** | Akan Cinematic Emotions Dataset for Low-resource Languages | [[Paper](https://arxiv.org/abs/2502.10973)] [[Code](https://github.com/sasudavid/AkaCE)] |
+| [NeurIPS 2024] | **MERR** | Multimodal Emotion Recognition and Reasoning Dataset | [[Data](https://zebangcheng.github.io/Emotion-LLaMA/dataset/)] |
 | [2024] | **MER2024** | Multimodal Emotion Recognition Challenge 2024 | [[Data](https://huggingface.co/datasets/MERChallenge/MER2024)] |
+| [Arxiv 2024] | **AffectNet+** | Enhancing Facial Expression Recognition with Soft-Labels | [[Paper](https://arxiv.org/pdf/2410.22506v1)] |
 | [TVCG 2024] | **An Immersive and Interactive VR Dataset to Elicit Emotions** | |[[Paper](https://ieeexplore.ieee.org/document/10670431)] |
 | [2023] | **MER2023** | Multimodal Emotion Recognition Challenge 2023 | [[Data](https://huggingface.co/datasets/MERChallenge/MER2023)] |
 | [TVCG 2023] | **HEADSET** | Human Emotion Awareness under Partial Occlusions | [[Paper](https://ieeexplore.ieee.org/document/10269730)] |
 | [TPAMI 2023] | **EgoCom** | Multi-Person Multimodal Egocentric Communications Dataset | [[Paper](https://ieeexplore.ieee.org/document/9200754)] |
 | [TPAMI 2023] | **CAS(ME)3** | Spontaneous Micro-Expression Database with Depth Information | [[Paper](https://doi.org/10.1109/TPAMI.2022.3174895)] |
+| [ACM MM 2022] | **MAFW** | Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild | [[Paper](https://arxiv.org/pdf/2208.00847)] [[Code](https://github.com/MAFW-database/MAFW)] |
 | [Arxiv 2022.09] | **CH-SIMS v2.0** | Chinese Single- and Multi-modal Sentiment Dataset | [[Paper](https://arxiv.org/pdf/2209.02604)] [[Code](https://github.com/thuiar/ch-sims-v2)] |
+| [CVPR 2022] | **FERV39k** | : A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos | [[Paper](https://arxiv.org/pdf/2203.09463)] [[Code](https://wangyanckxx.github.io/Proj_CVPR2022_FERV39k.html)] |
 | [Arxiv 2022.05] | **M3ED** | Multi-modal Multi-scene Multi-label Emotional Dialogue | [[Paper](https://arxiv.org/abs/2205.10237)] |
 | [2020] | **CH-SIMS** | Chinese Single- and Multi-modal Sentiment Dataset | [[Paper](https://aclanthology.org/2020.acl-main.343/)] [[Code](https://github.com/thuiar/MMSA)] |
 | [2019] | **MUStARD** | Multimodal Utterances for Sarcasm and Irony | [[Paper](https://aclanthology.org/P19-1455/)] [[Code](https://github.com/Himanshu-sudo/MUStARD-dataset)] |
@@ -97,10 +101,14 @@ This repository is a curated collection of research papers, datasets, and toolki
 | [2018] | **MELD** | Multimodal EmotionLines Dataset (Friends TV show) | [[Paper](https://arxiv.org/pdf/1810.02508)] [[Code](https://github.com/declare-lab/MELD)] |
 | [2018] | **PMEmo** | Music Emotion Recognition with Physiological Signals | [[Paper](https://dl.acm.org/doi/10.1145/3206025.3206037)] [[Code](https://github.com/HuiZhangDB/PMEmo)] |
 | [2017] | **CMU-MOSI** | Large-scale Dataset for Sentiment and Emotion Intensity  | [[Data](https://github.com/CMU-MultiComp-Lab/CMU-MultimodalSDK)][[Paper](https://aclanthology.org/D17-1115.pdf)] |
+| [2017] | **AffectNet** | Facial Expression, Valence, and Arousal Computing in the Wild  | [[Data](https://mohammadmahoor.com/pages/databases/affectnet/)][[Paper](https://arxiv.org/pdf/1708.03985v4)] |
 | [2017] | **SEED-IV** | EEG Dataset for Emotion Recognition (SJTU) | [[Code](https://bcmi.sjtu.edu.cn/~seed/seed.html)] |
 | [2015] | **SEED** | EEG Dataset for Emotion Recognition (SJTU) | [[Code](https://bcmi.sjtu.edu.cn/~seed/seed.html)] |
 | [2011] | **DEAP** | Dataset for Emotion Analysis using Physiological signals | [[Paper](https://ieeexplore.ieee.org/document/5871728)] |
 | [2008] | **IEMOCAP** | Interactive Emotional Dyadic Motion Capture | [[Code](https://sail.usc.edu/iemocap/)] |
+| [2008] | **DFEW** | Dynamic Facial Expression in-the-Wild | [[Data](https://dfew-dataset.github.io/)][[Paper](https://arxiv.org/pdf/2008.05924)] |
+| [2000] | **emoDB** | German database of emotional utterances| [[Data](http://emodb.bilderbar.info/docu/)] |
+
 
 ### ⚖️ Benchmarks
 *Holistic evaluation benchmarks for LLMs, MLLMs, and Emotional Reasoning.*
@@ -193,6 +201,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 - [Arxiv 2024.11] **FAME-Net: Generative Emotion Cause Explanation in Multimodal Conversations** | [[Paper](https://arxiv.org/pdf/2411.02430v3)] [[Code](https://github.com/3222345200/FAME-Net)]
 - [Arxiv 2024.08] **Towards a Generative Approach for Emotion Detection and Reasoning** | [[Paper](https://arxiv.org/pdf/2408.04906v1)]
 - [IJCAI 2025] **ECR-Chain: Generative Models Better Emotion-Cause Reasoners through Chains** | [[Paper](https://arxiv.org/pdf/2405.10860)] [[Code](https://github.com/hzp3517/ECR-Chain)]
+- [CVPR 2024]**EmoVIT: Revolutionizing Emotion Insights with Visual Instruction Tuning** | [[Paper](https://arxiv.org/pdf/2404.16670)][[Code](https://github.com/aimmemotion/EmoVIT)]
 - [EMNLP 2024] **UniMEEC: Towards Unified Multimodal Emotion Recognition and Emotion Cause** | [[Paper](https://aclanthology.org/2024.findings-emnlp.302/)] [[Code](https://github.com/LeMei/causal-unimeec)]
 - [EMNLP 2024] **Enhancing Emotion-Cause Pair Extraction via Center Event Detection** | [[Paper](https://aclanthology.org/2024.findings-emnlp.632.pdf)]
 - [ACM MM 2023] **Revisiting Disentanglement and Fusion on Modality and Context in MERC** | [[Paper](https://arxiv.org/pdf/2308.04502)]

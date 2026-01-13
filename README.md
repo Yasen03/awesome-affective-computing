@@ -190,6 +190,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 - [Arxiv 2025.11] **Affective Multimodal Agents for Emotionally Aligned Marketing Dialogue** | [[Paper](https://arxiv.org/pdf/2511.21728v1)]
 - [Arxiv 2025.10] **Emotion-Coherent Reasoning for MLLMs via Emotional Rationale Verifier** | [[Paper](https://arxiv.org/pdf/2510.23506v4)] [[Code](https://github.com/Rhatanii/ERV)]
 - [COLM 2025] **Mitigating Modal Imbalance in Multimodal Reasoning** | [[Paper](https://arxiv.org/pdf/2510.02608v2)] [[Code](https://github.com/AR-FORUM/modal-imbalance)]
+- [ACM MM 2025] **Affective-CoT: Decomposing Multimodal Emotion Reasoning through a Hierarchical Cognitive Workflow** | [[Paper](https://dl.acm.org/doi/10.1145/3746027.3762009)] [[Code](https://github.com/GPNU-AIoT/DARE)]
 - [Arxiv 2025.08] **AffectGPT-R1: Leveraging RL for Open-Vocabulary Multimodal ER** | [[Paper](https://arxiv.org/pdf/2508.01318)]
 - [Arxiv 2025.08] **The Emotional Baby Is Truly Deadly: Does your MLLM Have Emotional Flattery?** | [[Paper](https://arxiv.org/pdf/2508.03986v1)]
 - [Arxiv 2025.05] **FEALLM: Advancing Facial Emotion Analysis in MLLMs with Synergy** | [[Paper](https://arxiv.org/pdf/2505.13419v1)] [[Code](https://github.com/953206211/FEALLM)]

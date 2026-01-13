@@ -42,6 +42,12 @@ This repository is a curated collection of research papers, datasets, and toolki
 - [Arxiv 2025.11] **Rethinking Facial Expression Recognition in the Era of Multimodal Large Language Models** | [[Paper](https://arxiv.org/pdf/2511.00389v1)] [[Code](https://github.com/zfkarl/UniFER)]
 - [Arxiv 2025.10] **Datasets for Valence and Arousal Inference: A Survey** | [[Paper](https://arxiv.org/pdf/2510.00738v1)]
 - [Arxiv 2025.09] **Multimodal Large Language Models Meet Multimodal Emotion Recognition and Reasoning: A Survey** | [[Paper](https://arxiv.org/pdf/2509.24322)]
+- [TAC 2025] **SarcasmBench: Towards Evaluating Large Language Models on Sarcasm Understanding** | [[Paper](https://arxiv.org/pdf/2408.11319)]
+- [TAC 2025] **A Review of Human Emotion Synthesis Based on Generative Technology** | [[Paper](https://arxiv.org/pdf/2412.07116)]
+- [TAC 2025] **A Comprehensive Survey on Datasets for Affective Computing and Mental Disorder** | [[Paper](https://ieeexplore.ieee.org/document/11214492)]
+- [TAC 2025] **A Systematic Review of Experimental Protocols: Towards a Uniform Framework in Virtual Reality Affective Research** | [[Paper](https://ieeexplore.ieee.org/document/10945786)]
+- [TAC 2025] **Affective Computing Databases: In-Depth Analysis of Systematic Reviews and Surveys** | [[Paper](https://ieeexplore.ieee.org/document/10769002)]
+- [TAC 2025] **Explainable AI for Audio and Visual Affective Computing: A Scoping Review** | [[Paper](https://ieeexplore.ieee.org/document/10766406)]
 - [Arxiv 2025.05] **Multimodal Emotion Recognition in Conversations: A Survey of Methods, Trends, Challenges and Prospects** | [[Paper](https://arxiv.org/pdf/2505.20511)]
 - [Arxiv 2025.04] **A Survey on Multimodal Music Emotion Recognition** | [[Paper](https://arxiv.org/pdf/2504.18799v1)]
 - [Arxiv 2024.09] **Recent Trends of Multimodal Affective Computing: A Survey from an NLP Perspective** | [[Paper](https://arxiv.org/pdf/2409.07388)]
@@ -69,6 +75,10 @@ This repository is a curated collection of research papers, datasets, and toolki
 | [Arxiv 2025.11] | **EM2LDL** | Multilingual Speech Corpus for Mixed Emotion Recognition | [[Paper](https://arxiv.org/abs/2511.20106v1)] [[Code](https://github.com/xingfengli/EM2LDL)] |
 | [Arxiv 2025.11] | **RF-Behavior** | Multimodal Radio-Frequency Dataset for Emotion Analysis | [[Paper](https://arxiv.org/pdf/2511.06020v1)] |
 | [Arxiv 2025.10] | **WELD** | Longitudinal Dataset of Workplace Emotional Dynamics | [[Paper](https://arxiv.org/pdf/2510.15221v1)] |
+| [TAC 2025] | **SEED-MYA** | A Novel Myanmar Multimodal Dataset for Enhancing Emotion Recognition | [[Paper](https://ieeexplore.ieee.org/document/11072296)] |
+| [TAC 2025] | **CoAffinity** | A Multimodal Dataset for Cognitive Load and Affect Assessment in Remote Collaboration | [[Paper](https://ieeexplore.ieee.org/abstract/document/10970421)] |
+| [TAC 2025] | **SEED-VII** | A Multimodal Dataset of Six Basic Emotions With Continuous Labels for Emotion Recognition | [[Paper](https://ieeexplore.ieee.org/document/10731546/)] [[Code](https://github.com/gx123412/SEED-VII/blob/main/README.md)] |
+| [TAC 2025] | **FEAD** | Introduction to the fNIRS-EEG Affective Database - Video Stimuli | [[Paper](https://ieeexplore.ieee.org/document/10542388)] [[Code](https://github.com/farniadb/dataset/tree/main)] |
 | [2025] | **MER2025** | Multimodal Emotion Recognition Challenge 2025 | [[Dataset](https://huggingface.co/datasets/MERChallenge/MER2025)] |
 | [Arxiv 2025.06] | **MMME** | Spontaneous Multi-Modal Micro-Expression (Visual-Physiological) | [[Paper](https://arxiv.org/pdf/2506.09834v2)] [[Code](https://github.com/Mac0504/MMME)] |
 | [Arxiv 2025.03] | **EVA-MED** | Enhanced Valence-Arousal Multimodal Emotion Dataset | [[Paper](https://arxiv.org/pdf/2503.16584v1)] |
@@ -100,6 +110,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 | [Arxiv 2025.10] | **SEER** | The Span-based Emotion Evidence Retrieval Benchmark | [[Paper](https://arxiv.org/pdf/2510.03490v1)] [[Code](https://github.com/chailab-umich/SEER)] |
 | [Arxiv 2025.08] | **MME-Emotion** | A Holistic Evaluation Benchmark for Emotional Intelligence in MLLMs | [[Paper](https://www.arxiv.org/pdf/2508.09210)] [[Code](https://mme-emotion.github.io/)] |
 | [Arxiv 2025.08] | **MTMEUR** | A Multi-Turn Multimodal Emotion Understanding and Reasoning Benchmark | [[Paper](https://arxiv.org/pdf/2508.16859v1)] [[Code](https://github.com/MindIntLab-HFUT/MTMEUR)] |
+| [TAC 2025] | **ECDaily** | A Large-scale Benchmark for Emotion Cause Extraction in Conversations | [[Paper](https://ieeexplore.ieee.org/document/10830477)] [[Code](https://github.com/xiangju2017/ECDaily-realtime)] |
 | [ACL 2025] | **ToMEmoReason** | Emotion Reasoning as a Theory of Mind Benchmark for LLMs | [[Paper](https://arxiv.org/pdf/2506.00334)] [[Code](https://github.com/GerardYeo/ToMEmoReason)] |
 | [Arxiv 2025.05] | **EmotionHallucer** | Evaluating Emotion Hallucinations in MLLMs | [[Paper](https://arxiv.org/pdf/2505.11405v1)] [[Code](https://github.com/xxtars/EmotionHallucer)] |
 | [Arxiv 2025.02] | **EmoBench-M** | Benchmarking Emotional Intelligence for Multimodal LLMs | [[Paper](https://arxiv.org/pdf/2502.04424v1)] [[Code](https://emo-gml.github.io/)] |
@@ -121,6 +132,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 - [Arxiv 2025.08] **A Trustworthy Method for Multimodal Emotion Recognition** | [[Paper](https://arxiv.org/pdf/2508.07625v1)]
 - [Arxiv 2025.08] **Hierarchical MoE: Continuous MER with Incomplete Inputs** | [[Paper](https://arxiv.org/pdf/2508.02133v4)]
 - [Arxiv 2025.08] **Multimodal Video Emotion Recognition with Reliable Reasoning Priors** | [[Paper](https://arxiv.org/pdf/2508.03722v1)]
+- [TAC 2025] **VISTANet: VIsual Spoken Textual Additive Net for Interpretable Multimodal Emotion Recognition** | [[Paper](https://arxiv.org/pdf/2208.11450)] [[Code](https://github.com/MIntelligence-Group/MMEmoRec)]
 - [Arxiv 2025.06] **Leveraging CLIP Encoder for Multimodal Emotion Recognition** | [[Paper](https://arxiv.org/pdf/2506.00903v1)]
 - [Arxiv 2025.04] **Leveraging Label Potential for Enhanced Multimodal Emotion Recognition** | [[Paper](https://arxiv.org/pdf/2504.05158v1)]
 - [Arxiv 2025.03] **Feature-Based Dual Visual Feature Extraction Model for Compound MER** | [[Paper](https://arxiv.org/pdf/2503.17453v1)] [[Code](https://github.com/MyGitHub-ax/8th_ABAW)]
@@ -169,6 +181,8 @@ This repository is a curated collection of research papers, datasets, and toolki
 - [Arxiv 2025.11] **Enhancing Meme Emotion Understanding with Multi-Level Modality Enhancement** | [[Paper](https://arxiv.org/pdf/2511.11126v1)]
 - [Arxiv 2025.08] **Benchmarking and Bridging Emotion Conflicts for Multimodal Emotion Reasoning** | [[Paper](https://arxiv.org/pdf/2508.01181v1)]
 - [Arxiv 2025.08] **Resource-Limited Multimodal Sentiment Reasoning via CoT Distillation** | [[Paper](https://arxiv.org/pdf/2508.05234v1)] [[Code](https://github.com/123sghn/MulCoTRD)]
+- [TAC 2025] **RVISA: Reasoning and Verification for Implicit Sentiment Analysis** | [[Paper](https://arxiv.org/pdf/2407.02340)]
+- [TAC 2025] **Modeling Cognitive-Affective Processes With Appraisal and Reinforcement Learning** | [[Paper](https://arxiv.org/pdf/2309.06367)]
 - [Arxiv 2025.05] **Project Riley: Multi-Agent LLM Collaboration with Emotional Reasoning** | [[Paper](https://arxiv.org/pdf/2505.20521v1)]
 - [Arxiv 2025.05] **Emotion-o1: Adaptive Long Reasoning for Emotion Understanding in LLMs** | [[Paper](https://arxiv.org/pdf/2505.22548v2)]
 - [Arxiv 2025.04] **DEEMO: De-identity Multimodal Emotion Recognition and Reasoning** | [[Paper](https://arxiv.org/pdf/2504.19549v1)]
@@ -198,6 +212,8 @@ This repository is a curated collection of research papers, datasets, and toolki
 - [ACM MM 2025] **Affective-CoT: Decomposing Multimodal Emotion Reasoning through a Hierarchical Cognitive Workflow** | [[Paper](https://dl.acm.org/doi/10.1145/3746027.3762009)] [[Code](https://github.com/GPNU-AIoT/DARE)]
 - [Arxiv 2025.08] **AffectGPT-R1: Leveraging RL for Open-Vocabulary Multimodal ER** | [[Paper](https://arxiv.org/pdf/2508.01318)]
 - [Arxiv 2025.08] **The Emotional Baby Is Truly Deadly: Does your MLLM Have Emotional Flattery?** | [[Paper](https://arxiv.org/pdf/2508.03986v1)]
+- [TAC 2025] **Injecting Multimodal Information Into Pre-Trained Language Model for Multimodal Sentiment Analysis** | [[Paper](https://ieeexplore.ieee.org/document/10935629)]
+- [TAC 2025] **Affective Embodied Agent for Patient Assistance in Virtual Rehabilitation** | [[Paper](https://ieeexplore.ieee.org/document/11002736)]
 - [Arxiv 2025.05] **FEALLM: Advancing Facial Emotion Analysis in MLLMs with Synergy** | [[Paper](https://arxiv.org/pdf/2505.13419v1)] [[Code](https://github.com/953206211/FEALLM)]
 - [Arxiv 2025.04] **EIBench: Breaking Boundaries in Emotional Reasoning with MLLMs** | [[Paper](https://arxiv.org/pdf/2504.07521v2)] [[Code](https://github.com/Lum1104/EIBench)]
 - [Arxiv 2025.03] **R1-Omni: Explainable Omni-Multimodal Emotion Recognition with RL** | [[Paper](https://arxiv.org/pdf/2503.05379v2)] [[Code](https://github.com/HumanMLLM/R1-Omni)]
@@ -228,6 +244,10 @@ This repository is a curated collection of research papers, datasets, and toolki
 - [Arxiv 2025.10] **The Personalization Trap: How User Memory Alters Emotional Reasoning in LLMs** | [[Paper](https://arxiv.org/pdf/2510.09905v1)]
 - [Arxiv 2025.10] **Evaluating Open-Source VLMs for Multimodal Sarcasm Detection** | [[Paper](https://arxiv.org/pdf/2510.11852v1)] [[Code](https://github.com/pvsnp9/sarcasm)]
 - [Arxiv 2025.10] **Empathic Prompting: Non-Verbal Context Integration for MLLM Conversations** | [[Paper](https://arxiv.org/pdf/2510.20743v1)]
+- [TAC 2025] **How to Enhance Causal Discrimination of Emotional Utterances: A Case on LLMs** | [[Paper](https://ieeexplore.ieee.org/document/11039724)]
+- [TAC 2025] **Rethinking Emotion Annotations in the Era of Large Language Models** | [[Paper](https://arxiv.org/pdf/2412.07906)] [[Code](https://github.com/chailab-umich/GPT-4-Emotion-Annotation)]
+- [TAC 2025] **Aware Yet Biased: Investigating Emotional Reasoning and Appraisal Bias in Large Language Models** | [[Paper](https://ieeexplore.ieee.org/abstract/document/11045290)]
+- [TAC 2025] **From Translation to Generative LLMs: Classification of Code-Mixed Affective Tasks** | [[Paper](https://ieeexplore.ieee.org/document/10938193)]
 - [AAAI 2025] **MSE-Adapter: Lightweight Plugin for MLLM Sentiment Analysis and ER** | [[Paper](https://arxiv.org/abs/2502.12478)] [[Code](https://github.com/AZYoung233/MSE-Adapter)]
 - [Neural Networks 2025] **DialogueLLM: Context and emotion knowledge-tuned LLMs for MERC** | [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608025007828)]
 - [ICASSP 2025] **LLM supervised Pre-training for MER in Conversations** | [[Paper](https://arxiv.org/pdf/2501.11468)]
@@ -238,6 +258,10 @@ This repository is a curated collection of research papers, datasets, and toolki
 <a id="affective-generation"></a>
 ## 🗣️ Affective Generation & Synthesis
 
+- [TAC 2025] **Hierarchical Control of Emotion Rendering in Speech Synthesis** | [[Paper](https://arxiv.org/pdf/2412.12498)]
+- [TAC 2025] **Empathetic Response Generation Through Multi-Modality** | [[Paper](https://ieeexplore.ieee.org/document/11129652)]
+- [TAC 2025] **From Extraction to Generation: Multimodal Emotion-Cause Pair Generation in Conversations** | [[Paper](https://ieeexplore.ieee.org/document/10640186)]
+- [TAC 2025] **Controllable Multi-Speaker Emotional Speech Synthesis With an Emotion Representation of High Generalization Capability** | [[Paper](https://ieeexplore.ieee.org/abstract/document/10553521)] [[Code](https://woaki.github.io/cmetts/)]
 - [ICMR 2025] **EmoHuman: Fine-Grained Emotion-Controlled Talking Head Generation** | [[Paper](https://dl.acm.org/doi/epdf/10.1145/3731715.3733322)]
 - [Arxiv 2024.09] **Emo-DPO: Controllable Emotional Speech Synthesis via Direct Preference Optimization** | [[Paper](https://arxiv.org/pdf/2409.10157)] [[Code](https://xiaoxue1117.github.io/Emo-tts-dpo/)]
 - [ECCV 2024] **EMO: Emote Portrait Alive: Generating Expressive Portrait Videos** | [[Paper](https://arxiv.org/pdf/2402.17485)] [[Code](https://github.com/HumanAIGC/EMO)]

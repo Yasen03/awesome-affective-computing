@@ -7,8 +7,12 @@ https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e
 https://github.com/sindresorhus/awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Yorkson-huang/awesome-affective-computing/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Yorkson-huang/awesome-affective-computing/graphs/commit-activity)
+[![GitHub Stars](https://img.shields.io/github/stars/Yorkson-huang/awesome-affective-computing?style=social)](https://github.com/Yorkson-huang/awesome-affective-computing)
+[![License](https://img.shields.io/github/license/Yorkson-huang/awesome-affective-computing)](https://github.com/Yorkson-huang/awesome-affective-computing/blob/main/LICENSE)
 
 **"Teaching Machines to Sense, Think, and Feel."**
+
+Curated roadmap for Affective Computing: from signal-level perception to LLM-era emotional intelligence.
 </div>
 
 ---
@@ -26,37 +30,46 @@ This repository is a curated collection of research papers, datasets, and toolki
 ## 📑 Table of Contents
 - [📚 Surveys & Reviews](#surveys-reviews)
 - [📊 Datasets and Benchmarks](#datasets-benchmarks)
+  - [📁 Datasets](#datasets)
+  - [⚖️ Benchmarks](#benchmarks)
 - [🤖 Emotional Intelligence in Large Models (LLM/MLLM/ALLM)](#emotional-intelligence)
+  - [MLLM / Omni-modal Models](#emotional-intelligence-mllm)
+  - [Audio / Speech LLMs (ALLM)](#emotional-intelligence-audio)
+  - [Text-centric LLMs](#emotional-intelligence-text)
 - [🔍 Emotion Understanding & Reasoning](#emotion-understanding)
 - [🧠 Multimodal Emotion Recognition (MER) & Perception](#mer-perception)
+  - [MER & MSA (Signal-based Fusion)](#mer-msa)
+  - [Facial & Physiological Affective Perception](#facial-physiological)
 - [🗣️ Affective Generation & Synthesis](#affective-generation)
 - [🛠️ Toolkits & Challenges](#toolkits-challenges)
+  - [MuSe Challenge Series](#muse-challenge)
+  - [MER Challenge Series](#mer-challenge)
 
 ---
 
 <a id="surveys-reviews"></a>
 ## 📚 Surveys & Reviews
 
-- [Arxiv 2025.12] **Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity** | [[Paper](https://arxiv.org/pdf/2512.10882v1)]
-- [Arxiv 2025.11] **Intelligent Agents with Emotional Intelligence: Current Trends, Challenges, and Future Prospects** | [[Paper](https://arxiv.org/pdf/2511.20657)]
-- [Arxiv 2025.11] **Rethinking Facial Expression Recognition in the Era of Multimodal Large Language Models** | [[Paper](https://arxiv.org/pdf/2511.00389v1)] [[Code](https://github.com/zfkarl/UniFER)]
-- [Arxiv 2025.10] **Datasets for Valence and Arousal Inference: A Survey** | [[Paper](https://arxiv.org/pdf/2510.00738v1)]
-- [Arxiv 2025.09] **Multimodal Large Language Models Meet Multimodal Emotion Recognition and Reasoning: A Survey** | [[Paper](https://arxiv.org/pdf/2509.24322)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2025.12] **Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity** | [[Paper](https://arxiv.org/pdf/2512.10882v1)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2025.11] **Intelligent Agents with Emotional Intelligence: Current Trends, Challenges, and Future Prospects** | [[Paper](https://arxiv.org/pdf/2511.20657)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2025.11] **Rethinking Facial Expression Recognition in the Era of Multimodal Large Language Models** | [[Paper](https://arxiv.org/pdf/2511.00389v1)] [[Code](https://github.com/zfkarl/UniFER)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2025.10] **Datasets for Valence and Arousal Inference: A Survey** | [[Paper](https://arxiv.org/pdf/2510.00738v1)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2025.09] **Multimodal Large Language Models Meet Multimodal Emotion Recognition and Reasoning: A Survey** | [[Paper](https://arxiv.org/pdf/2509.24322)]
 - [TAC 2025] **SarcasmBench: Towards Evaluating Large Language Models on Sarcasm Understanding** | [[Paper](https://arxiv.org/pdf/2408.11319)]
 - [TAC 2025] **A Review of Human Emotion Synthesis Based on Generative Technology** | [[Paper](https://arxiv.org/pdf/2412.07116)]
 - [TAC 2025] **A Comprehensive Survey on Datasets for Affective Computing and Mental Disorder** | [[Paper](https://ieeexplore.ieee.org/document/11214492)]
 - [TAC 2025] **A Systematic Review of Experimental Protocols: Towards a Uniform Framework in Virtual Reality Affective Research** | [[Paper](https://ieeexplore.ieee.org/document/10945786)]
 - [TAC 2025] **Affective Computing Databases: In-Depth Analysis of Systematic Reviews and Surveys** | [[Paper](https://ieeexplore.ieee.org/document/10769002)]
 - [TAC 2025] **Explainable AI for Audio and Visual Affective Computing: A Scoping Review** | [[Paper](https://ieeexplore.ieee.org/document/10766406)]
-- [Arxiv 2025.05] **Multimodal Emotion Recognition in Conversations: A Survey of Methods, Trends, Challenges and Prospects** | [[Paper](https://arxiv.org/pdf/2505.20511)]
-- [Arxiv 2025.04] **A Survey on Multimodal Music Emotion Recognition** | [[Paper](https://arxiv.org/pdf/2504.18799v1)]
-- [Arxiv 2024.09] **Recent Trends of Multimodal Affective Computing: A Survey from an NLP Perspective** | [[Paper](https://arxiv.org/pdf/2409.07388)]
-- [Arxiv 2024.08] **Affective computing in the era of large language models: A survey from the nlp perspective** | [[Paper](https://arxiv.org/pdf/2408.04638)]
-- [Arxiv 2024.06] **Large Language Models Meet Text-Centric Multimodal Sentiment Analysis: A Survey** | [[Paper](https://arxiv.org/pdf/2406.08068)]
-- [Arxiv 2023.12] **A Comprehensive Survey on Multi-modal Conversational Emotion Recognition with Deep Learning** | [[Paper](https://arxiv.org/pdf/2312.05735v1)]
-- [Arxiv 2023.05] **A Comprehensive Survey on Affective Computing; Challenges, Trends, and Future Directions** | [[Paper](https://arxiv.org/pdf/2305.07665)]
-- [Arxiv 2023.05] **Multimodal Sentiment Analysis: A Survey** | [[Paper](https://arxiv.org/pdf/2305.07611)]
-- [Arxiv 2022.03] **A Systematic Review on Affective Computing: Emotion Models and Databases** | [[Paper](https://arxiv.org/pdf/2203.06935)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2025.05] **Multimodal Emotion Recognition in Conversations: A Survey of Methods, Trends, Challenges and Prospects** | [[Paper](https://arxiv.org/pdf/2505.20511)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2025.04] **A Survey on Multimodal Music Emotion Recognition** | [[Paper](https://arxiv.org/pdf/2504.18799v1)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2024.09] **Recent Trends of Multimodal Affective Computing: A Survey from an NLP Perspective** | [[Paper](https://arxiv.org/pdf/2409.07388)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2024.08] **Affective computing in the era of large language models: A survey from the nlp perspective** | [[Paper](https://arxiv.org/pdf/2408.04638)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2024.06] **Large Language Models Meet Text-Centric Multimodal Sentiment Analysis: A Survey** | [[Paper](https://arxiv.org/pdf/2406.08068)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2023.12] **A Comprehensive Survey on Multi-modal Conversational Emotion Recognition with Deep Learning** | [[Paper](https://arxiv.org/pdf/2312.05735v1)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2023.05] **A Comprehensive Survey on Affective Computing; Challenges, Trends, and Future Directions** | [[Paper](https://arxiv.org/pdf/2305.07665)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2023.05] **Multimodal Sentiment Analysis: A Survey** | [[Paper](https://arxiv.org/pdf/2305.07611)]
+- ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) [Arxiv 2022.03] **A Systematic Review on Affective Computing: Emotion Models and Databases** | [[Paper](https://arxiv.org/pdf/2203.06935)]
 - [TPAMI 2022] **Video-Based Facial Micro-Expression Analysis: A Survey of Datasets and Algorithms** | [[Paper](https://ieeexplore.ieee.org/document/9382112)]
 - [TPAMI 2022] **Affective Image Content Analysis: Two Decades Review and New Perspectives** | [[Paper](https://ieeexplore.ieee.org/document/9472932)]
 
@@ -134,6 +147,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 <a id="emotional-intelligence"></a>
 ## 🤖 Emotional Intelligence in Large Models (LLM/MLLM/ALLM)
 
+<a id="emotional-intelligence-mllm"></a>
 ### MLLM / Omni-modal Models (Vision+Audio+Text)
 - [Arxiv 2025.12] **VidEmo: Affective-Tree Reasoning for Emotion-Centric Video Foundation Models** | [[Paper](https://arxiv.org/pdf/2511.02712v1)] [[Code](https://zzcheng.top/VidEmo)]
 - [Arxiv 2025.12] **Learning What to Attend First: Modality-Importance-Guided Reasoning** | [[Paper](https://arxiv.org/pdf/2512.02699v1)]
@@ -156,6 +170,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 - [Arxiv 2024.06] **EmoLLM: Multimodal Emotional Understanding Meets Large Language Models** | [[Paper](https://arxiv.org/pdf/2406.16442v2)] [[Code](https://github.com/yan9qu/EmoLLM)]
 - [Arxiv 2024.03] **GPT as Psychologist? Preliminary Evaluations for GPT-4V on Affective Computing** | [[Paper](https://arxiv.org/pdf/2403.05916v2)] [[Code](https://github.com/EnVision-Research/GPT4Affectivity)]
 
+<a id="emotional-intelligence-audio"></a>
 ### Audio / Speech LLMs (ALLM)
 - [Arxiv 2026.01] **Discovering and Causally Validating Emotion-Sensitive Neurons in Audio-LMs** | [[Paper](https://arxiv.org/pdf/2601.03115v1)]
 - [Arxiv 2025.10] **LISTEN: Do Audio LLMs Really LISTEN, or Just Transcribe?** | [[Paper](https://arxiv.org/pdf/2510.10444v2)] [[Code](https://delijingyic.github.io/LISTEN-website/)]
@@ -163,6 +178,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 - [WWW 2025] **Exploring Multimodal Pre-trained Models for Speech Emotion Recognition** | [[Paper](https://dl.acm.org/doi/epdf/10.1145/3701716.3717561)]
 - [Arxiv 2024.09] **Multi-Microphone and Multi-Modal Emotion Recognition in Reverberant Environment** | [[Paper](https://arxiv.org/pdf/2409.09545v3)]
 
+<a id="emotional-intelligence-text"></a>
 ### Text-centric LLMs (Mechanisms, Empathy & Bias)
 - [Arxiv 2025.12] **Large Language Models have Chain-of-Affective** | [[Paper](https://arxiv.org/pdf/2512.12283v1)]
 - [Arxiv 2025.11] **PRC-Emo: Teaching ER with Prompts, Retrieval, and Curriculum Learning** | [[Paper](https://arxiv.org/pdf/2511.07061v3)] [[Code](https://github.com/LiXinran6/PRC-Emo)]
@@ -216,6 +232,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 <a id="mer-perception"></a>
 ## 🧠 Multimodal Emotion Recognition (MER) & Perception
 
+<a id="mer-msa"></a>
 ### MER & MSA (Signal-based Fusion)
 - [Arxiv 2025.12] **Multimodal Functional Maximum Correlation for Emotion Recognition** | [[Paper](https://arxiv.org/pdf/2512.23076v1)] [[Code](https://github.com/DY9910/MFMC)]
 - [Arxiv 2025.12] **Pioneering MER in the Era of Large Models: From Closed Sets to Open Vocabularies** | [[Paper](https://arxiv.org/abs/2512.20938)]
@@ -247,6 +264,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 - [CVPR 2023] **Decoupled Multimodal Distilling for Emotion Recognition** | [[Paper](https://arxiv.org/pdf/2303.13802v1)] [[Code](https://github.com/mdswyz/DMD)]
 - [Arxiv 2022.11] **UniMSE: Towards Unified Multimodal Sentiment Analysis and Emotion Recognition** | [[Paper](https://arxiv.org/pdf/2211.11256v1)] [[Code](https://github.com/LeMei/UniMSE)]
 
+<a id="facial-physiological"></a>
 ### Facial & Physiological Affective Perception
 - [Arxiv 2025.11] **Facial-R1: Aligning Reasoning and Recognition for Facial Emotion Analysis** | [[Paper](https://arxiv.org/pdf/2511.10254v1)] [[Code](https://github.com/RobitsG/Facial-R1)]
 - [Arxiv 2025.11] **Synheart Emotion: Privacy-Preserving On-Device ER from Biosignals** | [[Paper](https://arxiv.org/pdf/2511.06231v1)] [[Code](https://github.com/synheart-ai/synheart-emotion)]
@@ -290,6 +308,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 - [Arxiv 2025.11] **Detecting Emotional Dynamic Trajectories: Evaluation for Emotional Support** | [[Paper](https://arxiv.org/pdf/2511.09003v1)] [[Code](https://ruochoxio.github.io/ETrajEval/)]
 - [Arxiv 2025.03] **Automated UX Insights from User Research Videos (Facial + Sentiment)** | [[Paper](https://arxiv.org/pdf/2503.22510v1)]
 - [TVCG 2024] **Affective Visualization Design: Leveraging Emotional Impact of Data** | [[Paper](https://ieeexplore.ieee.org/document/10301796)]
+<a id="muse-challenge"></a>
 ### 🏆 MuSe Challenge Series
 - [MuSe 2025] **The 6th Multimodal Sentiment Analysis Workshop and Challenge** | [[Website](https://www.muse-challenge.org/)]
 - [MuSe 2024] **The 5th Multimodal Sentiment Analysis Challenge and Workshop: Social Perception and Humor** | [[Website](https://sites.google.com/view/muse-2024/muse-2024)] [[Paper](https://arxiv.org/pdf/2406.07753v1)] [[Code](https://github.com/amirip/MuSe-2024)]
@@ -298,6 +317,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 - [MuSe 2021] **The Multimodal Sentiment Analysis Challenge: Sentiment, Emotion, Physiological-Emotion, and Stress** | [[Website](https://sites.google.com/view/muse-2021?authuser=0)]
 - [MuSe 2020] **The Multimodal Sentiment Challenge in Real-life Media** | [[Website](https://sites.google.com/view/muse2020?authuser=0)]
 
+<a id="mer-challenge"></a>
 ### 🏆 MER Challenge Series
 - [MER 2025] **Multimodal Emotion Recognition Challenge 2025: Affective Computing Meets LLMs** | [[Website](https://zeroqiaoba.github.io/MER2025-website/)]
 - [MER 2024] **Multimodal Emotion Recognition Challenge 2024: Semi-supervised Learning & Open-Vocabulary** | [[Website](https://zeroqiaoba.github.io/MER2024-website/)]

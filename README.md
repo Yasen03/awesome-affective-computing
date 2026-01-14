@@ -6,9 +6,9 @@
 https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](
 https://github.com/sindresorhus/awesome)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Yorkson-huang/awesome-affective-computing/pulls)
-
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Yorkson-huang/awesome-affective-computing/graphs/commit-activity)
 **"Teaching Machines to Sense, Think, and Feel."**
-
+<\div>
 ---
 
 > *"If we want computers to be genuinely intelligent and to interact naturally with us, we must give them the ability to recognize, understand, even to have and express emotions."*  

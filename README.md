@@ -180,6 +180,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 
 <a id="emotional-intelligence-text"></a>
 ### Text-centric LLMs (Mechanisms, Empathy & Bias)
+- ![WWW](https://img.shields.io/badge/WWW-blue?style=flat) ![2026](https://img.shields.io/badge/2026-lightgrey?style=flat) **Kardia-R1: Unleashing LLMs to Reason toward Understanding and Empathy for Emotional Support via Rubric-as-Judge Reinforcement Learning** | [[Paper](https://arxiv.org/abs/2512.01282)]  [[Code](https://github.com/JhCircle/Kardia-R1)]
 - ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) ![2025.12](https://img.shields.io/badge/2025.12-lightgrey?style=flat) **Large Language Models have Chain-of-Affective** | [[Paper](https://arxiv.org/pdf/2512.12283v1)]
 - ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) ![2025.11](https://img.shields.io/badge/2025.11-lightgrey?style=flat) **PRC-Emo: Teaching ER with Prompts, Retrieval, and Curriculum Learning** | [[Paper](https://arxiv.org/pdf/2511.07061v3)] [[Code](https://github.com/LiXinran6/PRC-Emo)]
 - ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) ![2025.11](https://img.shields.io/badge/2025.11-lightgrey?style=flat) **Detecting and Steering LLMs’ Empathy in Action** | [[Paper](https://arxiv.org/pdf/2511.16699v1)] [[Code](https://github.com/juancadile/empathy-probes)]

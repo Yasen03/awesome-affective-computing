@@ -149,6 +149,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 
 <a id="emotional-intelligence-mllm"></a>
 ### MLLM / Omni-modal Models (Vision+Audio+Text)
+- ![ACM MM](https://img.shields.io/badge/ACM%20MM-blue?style=flat) ![2026](https://img.shields.io/badge/2026-lightgrey?style=flat) **Do We Really Need Multimodal Emotion Language Models Larger Than 1B Parameters?** (Light-MER) | [[Paper](https://arxiv.org/abs/2607.12787)] [[Code](https://github.com/GAIR-Lab/Light-MER)]
 - ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) ![2025.12](https://img.shields.io/badge/2025.12-lightgrey?style=flat) **VidEmo: Affective-Tree Reasoning for Emotion-Centric Video Foundation Models** | [[Paper](https://arxiv.org/pdf/2511.02712v1)] [[Code](https://zzcheng.top/VidEmo)]
 - ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) ![2025.12](https://img.shields.io/badge/2025.12-lightgrey?style=flat) **Learning What to Attend First: Modality-Importance-Guided Reasoning** | [[Paper](https://arxiv.org/pdf/2512.02699v1)]
 - ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) ![2025.12](https://img.shields.io/badge/2025.12-lightgrey?style=flat) **Large Emotional World Model** | [[Paper](https://arxiv.org/pdf/2512.24149v1)]
@@ -267,6 +268,7 @@ This repository is a curated collection of research papers, datasets, and toolki
 
 <a id="facial-physiological"></a>
 ### Facial & Physiological Affective Perception
+- ![TAC](https://img.shields.io/badge/TAC-orange?style=flat) ![2026](https://img.shields.io/badge/2026-lightgrey?style=flat) **Bidirectional Learning of Facial Action Units and Expressions via Structured Semantic Mapping across Heterogeneous Datasets** (SSM) | [[Paper](https://arxiv.org/abs/2604.10541)] [[DOI](https://doi.org/10.1109/TAFFC.2026.3722867)] [[Code](https://github.com/MSA-LMC/SSM)]
 - ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) ![2025.11](https://img.shields.io/badge/2025.11-lightgrey?style=flat) **Facial-R1: Aligning Reasoning and Recognition for Facial Emotion Analysis** | [[Paper](https://arxiv.org/pdf/2511.10254v1)] [[Code](https://github.com/RobitsG/Facial-R1)]
 - ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) ![2025.11](https://img.shields.io/badge/2025.11-lightgrey?style=flat) **Synheart Emotion: Privacy-Preserving On-Device ER from Biosignals** | [[Paper](https://arxiv.org/pdf/2511.06231v1)] [[Code](https://github.com/synheart-ai/synheart-emotion)]
 - ![arXiv](https://img.shields.io/badge/-arXiv-b31b1b?style=flat&logo=arxiv&logoColor=white) ![2025.09](https://img.shields.io/badge/2025.09-lightgrey?style=flat) **MuMTAffect: Framework for Personality and Emotion from Physiological Signals** | [[Paper](https://arxiv.org/pdf/2509.04254v1)] [[Code](https://github.com/itubrainlab/MuMTAffect)]
